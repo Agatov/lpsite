@@ -1,0 +1,44 @@
+@font-face
+  font-family: 'Roboto-Light'
+  src: url('/fonts/Roboto-Light.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Roboto-Thin'
+  src: url('/fonts/Roboto-Thin.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Roboto-Regular'
+  src: url('/fonts/Roboto-Regular.ttf') format("truetype")
+  font-weight: normal
+  font-style: normal
+
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'Roboto-Thin', 'Helvetica', 'Arial', sans-serif
+  background: #2e3237
+  min-width: 1024px
+
+
+.wrapper
+  width: 960px
+  margin: 0px auto
+
+.clearfix
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.relative
+  position: relative
+
+.inheritance-height
+  height: 100%
